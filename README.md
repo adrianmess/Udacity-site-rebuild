@@ -63,6 +63,28 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Specifications
 
+* **Site Header**
+  * When you scroll down the initial header disappears, a floating header with different color scheme will appear. The floating header will reappear when you scroll back to the top.
+  * **Site Header Contains:**  
+  @Media width at 1000px or higher
+    * Udacity Logo
+    * Links: Catalog - Explore - Nanodegree - For Business | Sign-in | Get Started (button)<br>
+  @Media width *below* 1000px  
+      * asdsad
+
+
+
+  * **ddd**
+
+
+
+* **Nano Degree List**
+  * A list of 6 nano degree's in grid format
+    * Use Bootstrap Card with Image Cap to replicate look.
+* **BLANK**
+
+
+
 ## Known Bugs
   * No known bugs at this time.
 
