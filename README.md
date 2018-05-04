@@ -1,10 +1,23 @@
-# **Site Rebuild** - Udacity 
+# Site Rebuild: <IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark-light.svg">
+
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Description
+For this project I am creating a copy of the Udacity website. I will be using Angular and Firebase.
+
+## Objectives:
+* Components are used to create display and behavior for templates.
+* A router is used to navigate between different pages, including at least one dynamic route.
+* A service shares data between multiple components.
+* Application can create, edit, and delete instances of a model, persisting all changes in Firebase.
+* Data is retrieved from Firebase and displayed in the application.
+* Models can be filtered using a custom pipe.
+* Project is in a polished, portfolio-quality state.
+* Optional: Application has been deployed.
+
 
 ## Setup/Installation Requirements
 #### Prerequisites
