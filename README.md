@@ -1,4 +1,4 @@
-# Site Rebuild: <span style="background-color:blue"><IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark-light.svg" ></span>
+# Site Rebuild: <span style="background-color:blue"><IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark.svg" ></span>
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
