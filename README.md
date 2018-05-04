@@ -66,32 +66,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   - When you scroll down the initial header disappears, a floating header with different color scheme will appear. The floating header will reappear when you scroll back to the top.
   - **Site Header Contains:**  
 
-| @Media width at 1000px or higher | @Media width **below** 1000px  
+| @Media width at 992px or higher | @Media width **below** 992px  
 | :-------------     | :------------- | :-------------
 |  <b>Udacity Logo<b>  <br><br><img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-large.png>  | <img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small.png>|
 | <b>Links:</b> Catalog - Explore - Nanodegree - For Business Sign-in  Get Started (button)<br>
 | <b> Header transform when scrolling down</b> <br><br> <img src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-wide-header-transition.gif"> | <b>Logo</b> <br><br><img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small-transition.png>
 
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+@media max-width 768
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
+@media min-width 768 - max-width 992
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+@media min-width 992
 
 * **Nano Degree List**
 
