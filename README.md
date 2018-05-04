@@ -1,4 +1,4 @@
-# Site Rebuild: <IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark-light.svg">
+# Site Rebuild: <IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark-light.svg" style="background-color:#15d6cb">
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
@@ -62,14 +62,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Specifications
+ **Site Header**
+  - When you scroll down the initial header disappears, a floating header with different color scheme will appear. The floating header will reappear when you scroll back to the top.
+  - **Site Header Contains:**  
+    @Media width at 1000px or higher
+    - Udacity Logo  
+    - Links: Catalog - Explore - Nanodegree - For Business | Sign-in | Get Started (button)<br>
 
-* **Site Header**
-  * When you scroll down the initial header disappears, a floating header with different color scheme will appear. The floating header will reappear when you scroll back to the top.
-  * **Site Header Contains:**  
-  @Media width at 1000px or higher
-    * Udacity Logo
-    * Links: Catalog - Explore - Nanodegree - For Business | Sign-in | Get Started (button)<br>
-  @Media width *below* 1000px  
+    @Media width **below** 1000px  
       * asdsad
 
 
