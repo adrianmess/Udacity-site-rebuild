@@ -73,6 +73,25 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 | <b> Header transform when scrolling down</b> <br><br> <img src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-wide-header-transition.gif"> | <b>Logo</b> <br><br><img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small-transition.png>
 
 
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
 
 * **Nano Degree List**
 
