@@ -9,6 +9,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 For this project I am creating a copy of the Udacity website. I will be using Angular and Firebase.
 
 ## Objectives:
+
+* Well-separated components
+* A working database
+* Live deployment
+
+**Part 1:**
+*  Build out the basic structure of application and separate the code into working components.
+
+
+**Part 2:**
 * Components are used to create display and behavior for templates.
 * A router is used to navigate between different pages, including at least one dynamic route.
 * A service shares data between multiple components.
