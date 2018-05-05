@@ -67,7 +67,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   - **Site Header Contains:**  
 
 | @Media width at 992px or higher | @Media width **below** 992px  
-| :-------------     | :------------- | :-------------
+| :-------------     | :-------------
 |  <b>Udacity Logo<b>  <br><br><img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-large.png>  | <img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small.png> |
 | <b>Links:</b> Catalog - Explore - Nanodegree - For Business Sign-in  Get Started (button)<br> | |
 | <b> Header transform when scrolling down</b> <br><br> <img src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-wide-header-transition.gif"> | <b>Logo</b> <br><br><img src=https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small-transition.png> |
@@ -82,16 +82,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * **Nano Degree List**
 
-<table>
+<!-- <table>
 <td><td>
 <tr><th colspan=2>sadsad</th></tr>
 <td colspan=2>
-</table>
+</table> -->
 
-| @Media width at 1000px or higher | @Media width **below** 1000px  
+<!-- | @Media width at 1000px or higher | @Media width **below** 1000px  
 | :-------------     | :------------- | :-------------
 <td >  A list of 6 nano degree's in grid format </td>
-||
+|| -->
 
   * A list of 6 nano degree's in grid format
     * Use Bootstrap Card with Image Cap to replicate look.
