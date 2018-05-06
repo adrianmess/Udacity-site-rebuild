@@ -1,0 +1,22 @@
+
+
+.featured-card {
+
+}
+
+
+div.container {
+
+  height: 7.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  float: left;
+  display: block;
+  margin-right: 1.69491525%;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
