@@ -14,6 +14,9 @@ import { UdacityAdvantageSectionComponent } from './udacity-advantage-section/ud
 import { FullCatalogOfferingsCardComponent } from './full-catalog-offerings-card/full-catalog-offerings-card.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
+import { HeaderComponent } from './header/header.component';
+import { DegreePromoComponent } from './degree-promo/degree-promo.component';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { FooterComponent } from './footer/footer.component';
     UdacityAdvantageSectionComponent,
     FullCatalogOfferingsCardComponent,
     ContactSectionComponent,
-    FooterComponent
+    FooterComponent,
+    ContentComponent,
+    HeaderComponent,
+    DegreePromoComponent
   ],
   imports: [
     BrowserModule
