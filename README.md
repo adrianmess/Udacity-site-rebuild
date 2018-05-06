@@ -93,6 +93,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <td >  A list of 6 nano degree's in grid format </td>
 || -->
 
+### Site Layout
+<img height="1000" src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/Site%20Rebuild%20-%20Udacity%20-%20Flow%20Chart.png">
+
   * A list of 6 nano degree's in grid format
     * Use Bootstrap Card with Image Cap to replicate look.
 * **BLANK**
