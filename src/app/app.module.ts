@@ -18,6 +18,7 @@ import { HeaderComponent } from './header/header.component';
 import { DegreePromoComponent } from './degree-promo/degree-promo.component';
 import { FeaturedCardsListComponent } from './featured-cards-list/featured-cards-list.component';
 import { FeaturedCardComponent } from './featured-card/featured-card.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { FeaturedCardComponent } from './featured-card/featured-card.component';
     HeaderComponent,
     DegreePromoComponent,
     FeaturedCardsListComponent,
-    FeaturedCardComponent
+    FeaturedCardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
