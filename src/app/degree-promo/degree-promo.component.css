@@ -1,0 +1,135 @@
+
+
+.hero__video .video .contain {
+  border-radius: 0;
+  height: 27rem;
+}
+
+.contain {
+  overflow: hidden;
+  height: 30rem;
+  position: relative;
+}
+
+
+
+.contain {
+  max-width: 73.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.hero__video .video--overlay {
+  height: 30rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: block;
+}
+
+@media screen and (min-width: 48rem){
+
+  .hero__video .video--bg, .hero__video .video--overlay {
+    border-radius: .375rem;
+  }
+}
+
+.hero__video {
+  margin-bottom: 1.5rem;
+}
+
+.hero__video {
+  float: left;
+  display: block;
+  margin-right: 1.69491525%;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 48rem){
+  .contain {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .hero__video:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62rem){
+  .hero__video {
+  }
+}
+
+@media screen and (max-width: 73.75rem) and (min-width: 62rem){
+  .hero__video {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 62rem){
+  .hero__video {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 66.10169492%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 48rem){
+  .hero__video .video .contain {
+    height: 33rem;
+  }
+}
+
+@media screen and (min-width: 30rem) {
+
+  .hero__video .video .contain {
+    position: relative;
+    background-image: none;
+    background-color: rgba(46,61,73,.7);
+  }
+}
+
+.hero__video .video .contain {
+  padding: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 62rem){
+
+  .hero__video .video .contain {
+    border-radius: .375rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 48rem){
+
+  .hero__video .video .contain {
+    height: 33rem;
+  }
+}
+
+@media screen and (min-width: 30rem){
+
+  .hero__video .video--overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 7000;
+  }
+}
