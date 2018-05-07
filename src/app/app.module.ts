@@ -20,6 +20,8 @@ import { FeaturedCardsListComponent } from './featured-cards-list/featured-cards
 import { FeaturedCardComponent } from './featured-card/featured-card.component';
 import { HomeComponent } from './home/home.component';
 import { StrategicPartnerListComponent } from './strategic-partner-list/strategic-partner-list.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NanodegreeCardComponent } from './nanodegree-card/nanodegree-card.component';
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { StrategicPartnerListComponent } from './strategic-partner-list/strategi
     FeaturedCardsListComponent,
     FeaturedCardComponent,
     HomeComponent,
-    StrategicPartnerListComponent
+    StrategicPartnerListComponent,
+    CarouselComponent,
+    NanodegreeCardComponent
   ],
   imports: [
     BrowserModule
