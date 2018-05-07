@@ -6,7 +6,7 @@ body, p {
 .hero--homepage::before {
     content: '';
     width: 100%;
-    height: 300px;
+    height: 520px;
     z-index: -1000;
     background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
     transform-origin: left bottom;
@@ -18,4 +18,12 @@ body, p {
     -ms-transform: skew(0deg, -15deg);
     -o-transform: skew(0deg, -15deg);
     transform: skew(0deg, -15deg);
+}
+
+.hero--homepage > .contain{padding:0}
+@media screen and (min-width:48rem){
+  .hero--homepage > .contain{height:30rem}
+}
+@media screen and (min-width:62rem){
+  .hero--homepage > .contain{height:30rem}
 }
