@@ -19,6 +19,7 @@ import { DegreePromoComponent } from './degree-promo/degree-promo.component';
 import { FeaturedCardsListComponent } from './featured-cards-list/featured-cards-list.component';
 import { FeaturedCardComponent } from './featured-card/featured-card.component';
 import { HomeComponent } from './home/home.component';
+import { StrategicPartnerListComponent } from './strategic-partner-list/strategic-partner-list.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { HomeComponent } from './home/home.component';
     DegreePromoComponent,
     FeaturedCardsListComponent,
     FeaturedCardComponent,
-    HomeComponent
+    HomeComponent,
+    StrategicPartnerListComponent
   ],
   imports: [
     BrowserModule
