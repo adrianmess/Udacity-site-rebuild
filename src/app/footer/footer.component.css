@@ -1,0 +1,70 @@
+.footer {
+  background-image: linear-gradient(to bottom right,#f7f7f7,#eafbff);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+p {
+    color: #525c65;
+    line-height: 1.5rem;
+}
+
+p.legible {
+    max-width: 48.75rem!important;
+}
+
+.center, .center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+@media screen and (min-width: 48rem){
+p.small, p small {
+    font-size: .875rem;
+    line-height: 1.5rem;
+}}
+
+@media screen and (min-width: 48rem){
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}}
+
+@media screen and (min-width: 48rem){
+p.micro {
+    font-size: .5625rem;
+    line-height: .75rem;
+
+}
+}
+@media screen and (min-width: 62rem){
+
+.footer__col{
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 49.15254237%;
+}}
+
+@media screen and (min-width: 48rem){
+
+.footer__col {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 100%;
+}}
