@@ -22,7 +22,10 @@ import { HomeComponent } from './home/home.component';
 import { StrategicPartnerListComponent } from './strategic-partner-list/strategic-partner-list.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NanodegreeCardComponent } from './nanodegree-card/nanodegree-card.component';
-
+import { WelcomeComponent } from './welcome/welcome.component';
+import { routing } from './app.routing';
+import { MarketingSeperatorComponent } from './marketing-seperator/marketing-seperator.component';
+import { MarketingCardComponent } from './marketing-card/marketing-card.component';
 
 @NgModule({
   declarations: [
@@ -45,10 +48,14 @@ import { NanodegreeCardComponent } from './nanodegree-card/nanodegree-card.compo
     HomeComponent,
     StrategicPartnerListComponent,
     CarouselComponent,
-    NanodegreeCardComponent
+    NanodegreeCardComponent,
+    WelcomeComponent,
+    MarketingSeperatorComponent,
+    MarketingCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
