@@ -26,6 +26,10 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { MarketingSeperatorComponent } from './marketing-seperator/marketing-seperator.component';
 import { MarketingCardComponent } from './marketing-card/marketing-card.component';
+import { FooterNavComponent } from './footer-nav/footer-nav.component';
+import { FooterSocialComponent } from './footer-social/footer-social.component';
+import { NavCountriesComponent } from './nav-countries/nav-countries.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +55,11 @@ import { MarketingCardComponent } from './marketing-card/marketing-card.componen
     NanodegreeCardComponent,
     WelcomeComponent,
     MarketingSeperatorComponent,
-    MarketingCardComponent
+    MarketingCardComponent,
+    FooterNavComponent,
+    FooterSocialComponent,
+    NavCountriesComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

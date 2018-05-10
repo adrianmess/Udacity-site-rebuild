@@ -31,6 +31,32 @@ p.legible {
     text-align: center!important;
 }
 
+.footer__primary {
+    min-height: 24rem;
+    max-width: 73.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.25rem;
+}
+
+.footer__logo {
+    height: 3.75rem;
+}
+
+a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+.footer__logo__mark {
+    display: block;
+    width: 1.9375rem;
+    height: 1.9375rem;
+}
+
 @media screen and (min-width: 48rem){
 p.small, p small {
     font-size: .875rem;
@@ -68,3 +94,93 @@ p.micro {
     margin-right: 1.69491525%;
     width: 100%;
 }}
+
+@media screen and (min-width: 62rem){
+.footer__nav__col:nth-child(odd) {
+    clear: none;
+}}
+
+@media screen and (min-width: 62rem){
+
+.footer__nav__col {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 15.25423729%;
+}}
+
+@media screen and (min-width: 62rem){
+
+.footer__nav__col:last-child {
+    margin-right: 0;
+}
+}
+
+@media screen and (min-width: 62rem){
+
+.footer__nav__col {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 15.25423729%;
+}}
+
+@media screen and (min-width: 62rem){
+
+.footer__nav__col:first-child, .footer__nav__col:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 23.72881356%;
+}}
+
+@media screen and (min-width: 62rem){
+.footer__nav__col:nth-child(odd) {
+    clear: none;
+}
+}
+
+@media screen and (min-width: 48rem){
+
+.footer__nav__col:nth-child(odd) {
+    clear: left;
+}}
+
+@media screen and (min-width: 62rem){
+.footer__nav__col {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 15.25423729%;
+}}
+
+@media screen and (min-width: 48rem){
+.footer__nav__col {
+    background: none;
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 49.15254237%;
+    margin-left: 0;
+}}
+
+@media screen and (min-width: 30rem){
+.footer__nav__col {
+    float: left;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 83.05084746%;
+    margin-left: 16.94915254%;
+}}
+
+@media screen and (min-width: 48rem){
+.footer__nav__col {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}}
+
+/* .footer__nav__col {
+    -webkit-box-shadow: 12px 16px 20px 0 rgba(46,61,73,.2);
+    box-shadow: 12px 16px 20px 0 rgba(46,61,73,.2);
+    background: #fff;
+} */
