@@ -38,6 +38,8 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { EditFormComponent } from './edit-form/edit-form.component';
+import { FormsComponent } from './forms/forms.component';
+import { FormDetailComponent } from './form-detail/form-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -76,7 +78,9 @@ export const firebaseConfig = {
     FooterSocialComponent,
     NavCountriesComponent,
     AdminComponent,
-    EditFormComponent
+    EditFormComponent,
+    FormsComponent,
+    FormDetailComponent
   ],
   imports: [
     BrowserModule,
