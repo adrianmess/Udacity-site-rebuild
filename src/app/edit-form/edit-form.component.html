@@ -1,0 +1,18 @@
+<!-- -------two-way data binding -------  -->
+
+<h4>Edit Form</h4>
+
+<label>New Form Title:</label>
+<input [(ngModel)]="selectedForm.title">
+<br>
+
+<label>New Form Artist:</label>
+<input [(ngModel)]="selectedForm.artist">
+<br>
+
+<label>New Form Description:</label>
+<input [(ngModel)]="selectedForm.description">
+
+<button (click)="beginUpdatingForm(selectedForm)">Update</button>
+<hr>
+<button (click)="beginDeletingForm(selectedForm)">Delete</button>
