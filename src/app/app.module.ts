@@ -31,6 +31,9 @@ import { FooterSocialComponent } from './footer-social/footer-social.component';
 import { NavCountriesComponent } from './nav-countries/nav-countries.component';
 import { AdminComponent } from './admin/admin.component';
 
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
