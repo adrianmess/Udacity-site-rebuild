@@ -14,11 +14,26 @@ export class FormService {
 
   getForms() {
     return this.forms;
-    // return this.ALBUMS;
   }
 
   addForm(newForm: Form) {
     this.forms.push(newForm);
   }
+
+  getFormById(formId: string){
+  return this.database.object('forms/' + formId);
+}
+
+  updateForm(localUpdatedForm){
+      var formEntryInFirebase = this.getFormById(localUpdatedForm.$key);
+      formEntryInFirebase.update({title: localUpdatedForm.title,
+                                  artist: localUpdatedForm.artist,
+                                  description: localUpdatedForm.description});
+    }
+
+    deleteForm(localFormToDelete){
+        var formEntryInFirebase = this.getFormById(localFormToDelete.$key);
+        formEntryInFirebase.remove();
+      }
 
 }
