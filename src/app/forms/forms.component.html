@@ -4,12 +4,13 @@
 
 <div *ngFor="let form of forms | async"  class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(form)"><em>{{form.title}}</em> By: {{form.artist}}</h3>
+    <!-- <h3 (click)="goToDetailPage(form)"><em>{{form.title}}</em> By: {{form.artist}}</h3> -->
+    <h3 (click)="goToDetailPage(form)"><em>{{form.$value}}</em></h3>
     <!-- <h1>{{form.$key}}</h1> -->
     <div *ngIf="currentRoute === '/admin'">
       {{form.description}}
       <hr>
-      <app-edit-form [selectedForm]="form"></app-edit-form>
+      <!-- <app-edit-form [selectedForm]="form"></app-edit-form> -->
     </div>
   </div>
 </div>
