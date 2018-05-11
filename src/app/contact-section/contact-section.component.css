@@ -1,0 +1,33 @@
+.back {
+  background-image: url(https://www.udacity.com/assets/iridium/images/homepage/shared/bg-contact.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.contain {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.back, p {
+  color: white;
+}
+
+.btn--primary {
+  width: 13.75rem;
+  color: #fff;
+  background-color: #02b3e4;
+  border: .125rem solid transparent;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+h4 {
+  font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+    padding-top: 10%;
+/* padding-bottom: 0; */
+/* height: 22.5rem; */
+}

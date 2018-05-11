@@ -1,0 +1,26 @@
+div {
+  padding: 5%;
+      /* width: 2000px; */
+          /* display: table; */
+}
+
+.button--secondary {
+  margin: auto;
+  width: 17.5rem;
+  color: #fff;
+  background-color: #7d97ad;
+  border: .125rem solid transparent;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  text-align: center;
+  vertical-align: middle;
+  height: 3rem;
+  font-weight: 600;
+  font-size: .8125rem;
+  line-height: 2.625rem;
+  border-radius: .25rem;
+  letter-spacing: .125rem;
+  transition: all .3s ease;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+}

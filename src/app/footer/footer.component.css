@@ -1,3 +1,7 @@
+ul li {
+  list-style-type: none;
+}
+
 .footer__nav {
   display:flex;
   flex-direction: row;
@@ -25,9 +29,24 @@
   flex:1;
 }
 
+.footer__col {
+  display:flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.fineprint {
+ display:flex;
+ flex-direction: row;
+}
+
 
 .footer {
   background-image: linear-gradient(to bottom right,#f7f7f7,#eafbff);
+}
+
+.footer__secondary {
+  display: flex;
 }
 
 p {
