@@ -1,0 +1,42 @@
+.select-point {
+  display: flex;
+}
+
+.section1 {
+  display: flex;
+
+}
+
+.features-column1 {
+  flex:1;
+}
+
+.features-image1{
+  flex:1;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.features-column2 {
+  flex:1;
+}
+
+.features-image2{
+  flex:1;
+}
+
+.section3 {
+  display: flex;
+
+}
+
+.features-column3 {
+  flex:1;
+}
+
+.features-image3{
+  flex:1;
+}

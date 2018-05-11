@@ -51,6 +51,16 @@ h6 {
       -webkit-font-smoothing: antialiased;
   }
 
+.partners__featured {
+  display: flex;
+}
+
+.partners__featured--image {
+  flex: 1
+}
+
+
+
   @media screen and (min-width: 48rem){
     h6 {
       margin-bottom: 1.5rem;
