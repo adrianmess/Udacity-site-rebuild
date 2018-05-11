@@ -39,6 +39,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { EditFormComponent } from './edit-form/edit-form.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormDetailComponent } from './form-detail/form-detail.component';
+import { UdacityAdvantageSellingPointsComponent } from './udacity-advantage-selling-points/udacity-advantage-selling-points.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -79,7 +80,8 @@ export const firebaseConfig = {
     AdminComponent,
     EditFormComponent,
     FormsComponent,
-    FormDetailComponent
+    FormDetailComponent,
+    UdacityAdvantageSellingPointsComponent
   ],
   imports: [
     BrowserModule,
