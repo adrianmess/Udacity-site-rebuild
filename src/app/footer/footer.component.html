@@ -1,4 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <p>
   footer works!
 </p>
@@ -17,7 +17,10 @@
       <ul class="footer__nav">
         <li id="featured-programs">
           <h6>FEATURED PROGRAMS</h6>
-          <ul>
+          <ul  >
+            <li *ngFor="let form of forms | async"><a href="#">{{form.$value}}</a></li>
+          </ul>
+          <!-- <ul>
             <li>
               <a href="https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803">Android Basics</a>
             </li>
@@ -60,7 +63,7 @@
             <li>
               <a href="https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803">Android Basics</a>
             </li>
-          </ul>
+          </ul> -->
         </li>
         <li class="footer__nav__col" id="only-udacity">
           <h6>ONLY AT UDACITY</h6>
