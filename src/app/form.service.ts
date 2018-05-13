@@ -9,13 +9,16 @@ export class FormService {
 
   forms: FirebaseListObservable<any[]>;
 
+
   constructor(private database: AngularFireDatabase) {
-    this.forms = database.list('FProgram');
+    this.forms = database.list('/fLinks/');
   }
+
 
   getForms() {
     return this.forms;
   }
+
 
   addForm(newForm: Form) {
     this.forms.push(newForm);

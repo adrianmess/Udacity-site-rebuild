@@ -3,5 +3,5 @@
 // }
 
 export class Form {
-  constructor (public FProgram: any) { }
+  constructor (public Links: any) { }
 }
