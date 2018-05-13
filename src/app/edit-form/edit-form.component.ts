@@ -14,14 +14,14 @@ export class EditFormComponent implements OnInit {
   ngOnInit() {
   }
 
-  beginUpdatingForm(formToUpdate){
-      this.formService.updateForm(formToUpdate);
-    }
-
-    beginDeletingForm(formToDelete){
-        if(confirm("Are you sure you want to delete this item from the inventory?")){
-          this.formService.deleteForm(formToDelete);
-        }
-      }
+  // beginUpdatingForm(formToUpdate){
+  //     this.formService.updateForm(formToUpdate);
+  //   }
+  //
+  //   beginDeletingForm(formToDelete){
+  //       if(confirm("Are you sure you want to delete this item from the inventory?")){
+  //         this.formService.deleteForm(formToDelete);
+  //       }
+  //     }
 
 }
