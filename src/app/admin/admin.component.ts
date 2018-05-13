@@ -15,8 +15,13 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(title: string, artist: string, description: string) {
-    var newForm: Form = new Form(title, artist, description);
+  // submitForm(title: string, artist: string, description: string) {
+  //   var newForm: Form = new Form(title, artist, description);
+  //   this.formService.addForm(newForm);
+  // }
+
+  submitForm(FProgram: string) {
+    var newForm: Form = new Form(FProgram);
     this.formService.addForm(newForm);
   }
 
