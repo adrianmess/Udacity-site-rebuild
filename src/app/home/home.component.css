@@ -18,30 +18,26 @@ h1 {
     padding: 0;
 }
 
-.contain {
+/* .contain {
     max-width: 73.75rem;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; */
-}
+
+    height: 30rem;
+} */
 
 
-@media screen and (min-width: 30rem)
+/* @media screen and (min-width: 30rem){
 h1 {
   font-size: 2rem;
-}
+}}
 
-@media screen and (min-width: 62rem)
-<style>…</style>
+@media screen and (min-width: 62rem){
 .hero--homepage > .contain {
     height: 30rem;
-}
+}}
 
-@media screen and (min-width: 48rem)
-<style>…</style>
+@media screen and (min-width: 48rem){
 .hero--homepage > .contain {
     height: 30rem;
-}
+}} */

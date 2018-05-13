@@ -1,4 +1,46 @@
+/* .card-contain {
+  max-height: 20%;
+  display: flex;
+  flex-direction: column;
+} */
 
+
+.card--image {
+  height: 128px;
+  /* max-width: 44px; */
+  max-width: auto;
+  float: left;
+}
+.card--homepage {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: block;
+}
+
+.card__content {
+  width: 100%;
+
+  float: right;
+  color: black;
+}
+
+div.img-container {
+  flex: 1;
+}
+
+div.card__content {
+  flex: 1;
+}
+
+.featured-card {
+  /* max-height: 20px;
+  padding-top: 10px; */
+  height: 9rem;
+
+}
+
+.
 
 .hero__video .video .contain {
   border-radius: 0;
