@@ -1,5 +1,5 @@
 
-.contain {
+.contain  {
   display: flex;
 }
 
@@ -11,7 +11,7 @@
 .header__navbar--navigation {
   flex: 2;
   /* margin-right: 0; */
-  margin-top: 1%;
+  margin-top: .8%;
   letter-spacing: 0;
 }
 
@@ -24,12 +24,13 @@
 .btn{
   background-color: #02ccba;
   /* margin-left: 2.5rem; */
-  border: 0;
+  border: 2;
   color: white;
   border: .125rem solid transparent;
   margin-left: 2.5rem;
   transition: all .3s ease;
   box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  width: 7.75rem;
 }
 
 .btn:hover {
@@ -38,8 +39,8 @@
 
 a {
   color: white;
-    text-decoration: none;
-
+  text-decoration: none;
+  font-size: .875rem;
 }
 
 
@@ -55,6 +56,50 @@ a {
   /* top: 10px; */
 }
 
+
+.contain-white  {
+  display: flex;
+}
+.header-white {
+    background-color: #fff; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    color: #525c65;
+    z-index:1000
+  }
+
+
+
+.navLinks-white {
+  margin-left: 2.5rem;
+  color:black;
+}
+
+.header__navbar--logo-white {
+  flex: 1;
+  margin-left: -8%;
+}
+
+.header__navbar--navigation-white {
+  flex: 2;
+  /* margin-right: 0; */
+  margin-top: .8%;
+  letter-spacing: 0;
+}
+
+.divider-white {
+  border-left: 1px solid black;
+  background: white;
+  color: white;
+  width: 1px;
+  height: 40px;
+  margin-left: 20px;
+  /* position: absolute; */
+  /* right: 250px; */
+  /* top: 10px; */
+}
 /* .button{display:none;letter-spacing:0;font-size:.875rem;text-transform:capitalize;height:2.25rem;font-weight:400;margin-left:2.5rem;line-height:1.9375rem}
 .header__navbar--navigation .button:first-child{margin-left:0}
 @media screen and (min-width:62rem){.header__navbar--navigation .button{display:block}}
