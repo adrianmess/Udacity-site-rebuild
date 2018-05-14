@@ -1,0 +1,42 @@
+.contain {
+  height: 156px;
+  max-width: 73.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all .3s ease;
+}
+
+.icon__arrow--white {
+  background: #02b3e4 url(https://www.udacity.com/assets/iridium/images/homepage/shared/icons/icon-arrow-right-white.svg) 50% no-repeat;
+  background-position: 25px;
+  border-radius: 50%;
+  background-size: 22%;
+  display: inline-block;
+  margin-left: 1.5rem;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  color: #02b3e4!important;
+}
+
+/* a .contain {
+  float: right;
+} */
+a {
+  vertical-align: middle;
+}
+
+a span {
+ flex: 1;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-family: Open Sans,sans-serif;
+  float: left;
+}

@@ -1,6 +1,10 @@
-body, p {
+/* body, p {
     color: #525c65;
     line-height: 1.5rem;
+} */
+
+.admin {
+  margin-left: 95%;
 }
 
 .hero--homepage::before {
@@ -20,10 +24,10 @@ body, p {
     transform: skew(0deg, -15deg);
 }
 
-.hero--homepage > .contain{padding:0}
+/* .hero--homepage > .contain{padding:0}
 @media screen and (min-width:48rem){
   .hero--homepage > .contain{height:30rem}
 }
 @media screen and (min-width:62rem){
   .hero--homepage > .contain{height:30rem}
-}
+} */

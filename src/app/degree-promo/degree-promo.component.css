@@ -21,7 +21,7 @@ flex-direction: column;
   flex-direction: column;
   /* display: block; */
   flex: 1;
-
+  background: transparent;
 }
 
 
@@ -46,6 +46,7 @@ display: flex;
 
 .video-content  {
   color: white;
+  padding-top: 80px;
 }
 
 
@@ -70,6 +71,7 @@ display: flex;
 .card__content--h5 {
   font-size: 1rem;
   width: inherit;
+  font-weight: 600!important;
 }
 
 a {
@@ -115,11 +117,35 @@ a {
   text-align: left;
   margin-left: 20;
   border-radius: .375rem;
-  width: 120%;
+  width: 140%;
 }
 
-.cards,h6 {
+h6 {
   margin-top: 13px;
+}
+
+h2 {
+  margin-top: 28px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.x-small {
+  line-height: 1.2rem!important;
+  font-size: .8125rem;
+}
+
+.video--overlay {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.summary{
+  color:white;
+      font-weight: 400;
 }
 
 
@@ -150,6 +176,8 @@ flex: 1;
   overflow: hidden;
   height: 480px;
   position: relative;
+  border-color: transparent;
+  font-family: Open Sans,sans-serif;
 }
 
 
@@ -253,15 +281,14 @@ span {
   display: block;
 }
 
-.button--white.lg {
-  width: 17.5rem;
-}
 
 .button--white {
 
   color: #02b3e4;
   background-color: #fff;
   border: .125rem solid transparent;
+  height: 3rem;
+  width: 17.5rem;
 }
 
 .button--white {

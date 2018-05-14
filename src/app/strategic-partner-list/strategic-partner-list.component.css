@@ -1,55 +1,55 @@
 .contain {
-    max-width: 73.75rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  max-width: 73.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.contain {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+/* .contain {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+} */
+
+*, :after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 *, :after, :before {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-}
-
-*, :after, :before {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .text-center {
-    text-align: center!important;
+  text-align: center!important;
 }
 
 *, :after, :before {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
- h6 {
-    font-size: .8125rem;
-    line-height: 1.5rem;
-}
- h6 {
-    font-size: .8125rem;
-    line-height: 1.5rem;
-    /* letter-spacing: .125rem; */
-    text-transform: uppercase;
-    font-weight: 600;
-    /* color: #7d97ad; */
+h6 {
+  font-size: .8125rem;
+  line-height: 1.5rem;
 }
 h6 {
-      margin-top: 0;
-      margin-bottom: 1.5rem;
-      color: #2e3d49;
-      -webkit-font-smoothing: antialiased;
-  }
+  font-size: .8125rem;
+  line-height: 1.5rem;
+  /* letter-spacing: .125rem; */
+  text-transform: uppercase;
+  font-weight: 600;
+  /* color: #7d97ad; */
+}
+h6 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #2e3d49;
+  -webkit-font-smoothing: antialiased;
+}
 
 .partners__featured {
   display: flex;
@@ -59,22 +59,26 @@ h6 {
   flex: 1
 }
 
-
-
-  @media screen and (min-width: 48rem){
-    h6 {
-      margin-bottom: 1.5rem;
-      }}
-
-@media screen and (min-width: 62rem){
-
-.contain {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}}
+h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #7d97ad;
+}
 
 @media screen and (min-width: 48rem){
-.contain {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}}
+  h6 {
+    margin-bottom: 1.5rem;
+    }}
+
+    @media screen and (min-width: 62rem){
+
+      .contain {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        }}
+
+        /* @media screen and (min-width: 48rem){
+          .contain {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            }} */

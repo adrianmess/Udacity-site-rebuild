@@ -1,22 +1,25 @@
 h1.homepage-title {
+  color: #fff;
+      font-size: 2rem;
   margin-top: .5rem;
   margin-bottom: 1rem;
+  font-weight: 300;
+  padding-top: 20px;
 }
 
-h1 {
-  color: #fff;
-  font-size: 1.6rem;
-  margin-bottom: .5rem;
-  margin-top: 1rem;
-}
+/* .contain {
+  padding-top: -200px;
+} */
 
-.hero--homepage {
+
+
+/* .hero--homepage {
     margin-top: 0;
-}
+} */
 
-.hero--homepage > .contain {
+/* .hero--homepage > .contain {
     padding: 0;
-}
+} */
 
 /* .contain {
     max-width: 73.75rem;
