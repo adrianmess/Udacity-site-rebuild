@@ -1,0 +1,67 @@
+.marketing-card {
+  height: 240px;
+  width: 83.05084746%;
+  margin-left: 8.47457627%;
+  background-color: #fff!important;
+  border-radius: .375rem;
+  display: flex;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: center;
+
+
+}
+
+.icon {
+  height: 4.5rem;
+  margin-top: 30px;
+}
+
+h3 {
+  font-weight: 300!important;
+  color: #02b3e4!important;
+  margin-bottom: .75rem!important;
+  font-size: 1.75rem;
+  text-align: left;
+
+}
+
+
+.btn {
+  width: 13.75rem;
+  color: #fff;
+  background-color: #02b3e4;
+  border: .125rem solid transparent;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  height: 3rem;
+  padding: 0 .5rem;
+  text-transform: uppercase;
+  font-size: .8125rem;
+  line-height: 2.625rem;
+  border-radius: .25rem;
+  letter-spacing: .125rem;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+}
+
+h3, p {
+  margin-left: 60px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+button {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-family: Open Sans,sans-serif;
+  color: #525c65!important;
+  font-weight: 400;
+}
