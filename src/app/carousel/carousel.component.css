@@ -1,0 +1,55 @@
+
+.carousel-control-prev-icon {
+  background-image:url(https://www.udacity.com/assets/iridium/images/shared/icons/icon-flexslider-left-blue.svg);
+  display: block;
+  height: 100%;
+  transition: opacity .3s ease;
+  text-indent: -999em;
+  opacity: .7;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto auto;
+}
+
+.carousel-control-next-icon{
+  background-image: url(https://www.udacity.com/assets/iridium/images/shared/icons/icon-flexslider-right-blue.svg);
+
+  display: block;
+  height: 100%;
+  transition: opacity .3s ease;
+  text-indent: -999em;
+  opacity: .7;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto auto;
+}
+
+.carousel{
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.carousel-item {
+  margin-bottom: 1.5rem;
+
+
+}
+
+h4 {
+  font-weight: 300!important;
+  font-style: italic!important;
+  text-align: center!important;
+  font-size: 1.75rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h6 {
+  font-style: normal;
+  color: #2e3d49;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8125rem;
+  line-height: 1.5rem;
+}
