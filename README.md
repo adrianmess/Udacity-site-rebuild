@@ -1,9 +1,17 @@
-# Site Rebuild: <span style="margin-left: 10px;"><IMG SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark.svg"></span>
+# Site Rebuild: <span style="margin-left: 10px;"><IMG  SRC="https://www.udacity.com/assets/iridium/images/core/header/udacity-wordmark.svg"></span>
 
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+# Site-Rebuild Under Construction
+* Need to add more info and additional instructions to README
+* Some features have not been implemented
+
+ <span style="margin-left: 160px;" > <img width="120"  src="https://cdn.dribbble.com/users/448601/screenshots/2169052/crane_dribbble.gif"></span>
+
+
 
 ## Description
 For this project I am creating a copy of the Udacity website. I will be using Angular and Firebase.
@@ -107,8 +115,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   * No known bugs at this time.
 
 ## Technologies Used
-Angular
-NodeJS
+
+
+* Angular
+* Node.js
+* Firebase
+* TypeScript
+
+
 ## License
 
 * GPL
