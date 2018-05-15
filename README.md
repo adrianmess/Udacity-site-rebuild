@@ -5,11 +5,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-# Site-Rebuild Under Construction
+# Site-Rebuild Under Construction  <span style="margin-left: 160px;" > <img width="120"  src="https://cdn.dribbble.com/users/448601/screenshots/2169052/crane_dribbble.gif"></span>
 * Need to add more info and additional instructions to README
 * Some features have not been implemented
 
- <span style="margin-left: 160px;" > <img width="120"  src="https://cdn.dribbble.com/users/448601/screenshots/2169052/crane_dribbble.gif"></span>
+
 
 
 
