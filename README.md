@@ -3,7 +3,6 @@
 #### By Adrian Messado
 [Adrian Messado](https://github.com/adrianmess)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 # Site-Rebuild Under Construction  <span style="margin-left: 160px;" > <img width="120"  src="https://cdn.dribbble.com/users/448601/screenshots/2169052/crane_dribbble.gif"></span>
 * Need to add more info and additional instructions to README
@@ -15,6 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 For this project I am creating a copy of the Udacity website. I will be using Angular and Firebase.
+  * Firebase will be used to store objects on the page like
 
 ## Objectives:
 
@@ -83,33 +83,35 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-@media max-width 768
 
-@media min-width 768 - max-width 992
-
-@media min-width 992
-
-* **Nano Degree List**
-
-<!-- <table>
-<td><td>
-<tr><th colspan=2>sadsad</th></tr>
-<td colspan=2>
-</table> -->
-
-<!-- | @Media width at 1000px or higher | @Media width **below** 1000px  
-| :-------------     | :------------- | :-------------
-<td >  A list of 6 nano degree's in grid format </td>
-|| -->
 
 ### Site Layout
 <img height="1000" src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/Site%20Rebuild%20-%20Udacity%20-%20Flow%20Chart.png">
 
   * A list of 6 nano degree's in grid format
     * Use Bootstrap Card with Image Cap to replicate look.
-* **BLANK**
 
 
+## User Stories
+
+| Status | View | Basic Features | Component
+| :-------------  
+| Done | NAV | Navigate to home page | Root
+| Done | Browse | White header drops down as overlay when scrolling down | Header
+| Done | Browse | Interact with carousel by pressing nav buttons | Student Quotes
+| 
+
+## Features
+
+
+
+* As Admin - Generate links on bottom from Firebase
+
+## Features - In Progress
+* As Admin - Edit/Update/Delete Links from Admin page
+
+## Future Features
+* As Admin - Generate nanodegree cards from firebase with ability to Edit/Update/Delete cards from Admin page.
 
 ## Known Bugs
   * No known bugs at this time.
