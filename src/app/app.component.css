@@ -1,7 +1,3 @@
-/* body, p {
-    color: #525c65;
-    line-height: 1.5rem;
-} */
 
 .admin {
   margin-left: 95%;
@@ -17,17 +13,5 @@
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-transform: skew(0deg, -15deg);
-    -moz-transform: skew(0deg, -15deg);
-    -ms-transform: skew(0deg, -15deg);
-    -o-transform: skew(0deg, -15deg);
     transform: skew(0deg, -15deg);
 }
-
-/* .hero--homepage > .contain{padding:0}
-@media screen and (min-width:48rem){
-  .hero--homepage > .contain{height:30rem}
-}
-@media screen and (min-width:62rem){
-  .hero--homepage > .contain{height:30rem}
-} */

@@ -8,10 +8,6 @@
   padding-right: 1.5rem;
 }
 
-/* .contain {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-} */
 
 *, :after, :before {
   -webkit-box-sizing: inherit;
@@ -68,17 +64,13 @@ h6 {
 @media screen and (min-width: 48rem){
   h6 {
     margin-bottom: 1.5rem;
-    }}
+  }
+}
 
-    @media screen and (min-width: 62rem){
+@media screen and (min-width: 62rem){
 
-      .contain {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        }}
-
-        /* @media screen and (min-width: 48rem){
-          .contain {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
-            }} */
+  .contain {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

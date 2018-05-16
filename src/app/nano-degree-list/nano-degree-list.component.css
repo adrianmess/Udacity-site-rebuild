@@ -1,161 +1,112 @@
-/* ------KEEEEP------- */
+
 .card {
   margin-top: 0;
-    margin-bottom: 1.5rem;
-    text-align: left;
-    /* position: relative; */
-    background: #fff;
-    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
-    border-radius: .375rem;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-        margin-bottom: 4.5rem;
-        max-width: 348px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  /* position: relative; */
+  background: #fff;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: .375rem;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  margin-bottom: 4.5rem;
+  max-width: 348px;
 }
 
 .card--nanodegree__header--overlay {
-    height: 9.75rem;
-    border-top-left-radius: .375rem;
-    border-top-right-radius: .375rem;
-    width: 100%;
-    z-index: 4000;
+  height: 9.75rem;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
+  width: 100%;
+  z-index: 4000;
 }
 
 #overlay1{
-    background-color: rgba(2,179,228,.8);
+  background-color: rgba(2,179,228,.8);
 }
 #overlay2{
-    background-color: rgba(2,204,186,.8);
+  background-color: rgba(2,204,186,.8);
 }
 #overlay3{
-    background-color: rgba(169,81,237,.8);
+  background-color: rgba(169,81,237,.8);
 }
 #overlay4{
-    background-color: rgba(125,151,173,.8);
+  background-color: rgba(125,151,173,.8);
 }
 #overlay5{
-    background-color: rgba(255,162,52,.8);
+  background-color: rgba(255,162,52,.8);
 }
 #overlay6{
-    background-color: rgba(255,84,131,.8);
+  background-color: rgba(255,84,131,.8);
 }
 
 
 
-/* .card--nanodegree__header--overlay:nth-child(4n){
-    background-color: rgba(255,162,52,.8);
-} */
 
 
-
-/* .card {
-    width: 100%;
-    height: 100%;
-    display: block;
-} */
 .card{
-    height: 19.5rem;
+  height: 19.5rem;
 }
-
-/* .card:last-child {
-    margin-bottom: 0;
-} */
-
-/* .card-image-top {
-    height: 9.75rem;
-    border-top-left-radius: .375rem;
-    border-top-right-radius: .375rem;
-    background-size: cover!important;
-    width: 100%;
-} */
 
 .card-image-top {
-    background-color: rgba(2,179,228,.8);
+  background-color: rgba(2,179,228,.8);
 }
 
 
 .pill {
-    color: #02b3e4;
-    position: relative;
-    top: 8px;
-    left: 12px;
-    background-color: #fff;
-    font-size: .8125rem;
-    height: 1.5rem;
+  color: #02b3e4;
+  position: relative;
+  top: 8px;
+  left: 12px;
+  background-color: #fff;
+  font-size: .8125rem;
+  height: 1.5rem;
 
-    padding: 2px 6px;
-    border-radius: 2px;
-    letter-spacing: 2px;
-    z-index: 5000;
-    text-transform: uppercase;
-    line-height: 1.5rem;
-    font-weight: 600;
-    box-shadow: 4px 6px 8px 0 rgba(46,61,73,.2);
+  padding: 2px 6px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  z-index: 5000;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  font-weight: 600;
+  box-shadow: 4px 6px 8px 0 rgba(46,61,73,.2);
 
 }
 
 
 
 a {
-    border-bottom: none;
-    text-decoration: none;
-    color: #525c65;
-    -webkit-transition: color .3s ease;
-    transition: color .3s ease;
+  border-bottom: none;
+  text-decoration: none;
+  color: #525c65;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
 }
 
 h4 {
   font-size: 1.5rem;
-    line-height: 2.25rem;
-    font-weight: 400;
-    text-align: left;
-    /* margin: 0; */
-    justify-content: center;
-    margin:auto;
-     /* width: 50%; */
-     font-family: Open Sans,sans-serif;
+  line-height: 2.25rem;
+  font-weight: 400;
+  text-align: left;
+  /* margin: 0; */
+  justify-content: center;
+  margin:auto;
+  /* width: 50%; */
+  font-family: Open Sans,sans-serif;
 }
 
 .card--nanodegree__title {
   padding: 24px 32px;
-    height: 8.25rem;
+  height: 8.25rem;
 }
 
 .card-deck {
   display: flex;
-flex-wrap: wrap;
-/* flex-direction: row; */
- margin: 0px 0 0 10px;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  margin: 0px 0 0 10px;
 }
 
 .card--nanodegree{
   flex: 1 0 30%;
 }
-
-/* @media screen and (min-width: 73.75rem){
-
-.card {
-  max-width: 21.75rem;
-}}
-
-@media screen and (min-width: 48rem){
-
-.card {
-  height: 22.5rem;
-}}
-
-@media screen and (min-width: 62rem){
-.card:nth-child(odd) {
-    clear: none;
-}}
-
-@media screen and (min-width: 73.75rem){
-
-.card-img-top{
-    width: 21.75rem;
-}}
-
-@media screen and (min-width: 73.75rem){
-.card-img-top {
-    width: 21.75rem;
-}} */
