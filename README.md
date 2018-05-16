@@ -4,11 +4,6 @@
 [Adrian Messado](https://github.com/adrianmess)
 
 
-# Site-Rebuild Under Construction  <span style="margin-left: 160px;" > <img width="120"  src="https://cdn.dribbble.com/users/448601/screenshots/2169052/crane_dribbble.gif"></span>
-* Need to add more info and additional instructions to README
-* Some features have not been implemented
-
-
 
 
 
@@ -45,11 +40,11 @@ For this project I am creating a copy of the Udacity website. I will be using An
   * https://www.npmjs.com/get-npm
 
 * Install TypeScript
-      
+
       $ npm install -g typescript
-      
+
 * Install Angularcli
-      
+
       $ npm install -g @angular/cli@1.6.5
 
 ### Clone
