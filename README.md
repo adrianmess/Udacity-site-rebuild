@@ -99,7 +99,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## User Stories
 
 | Status | View | Basic Features | Component
-| :-------------  
+| :-------------  | :------------- | :------------- | :-------------
 | Done | NAV | Navigate to home page | Root
 | Done | Browse | White header drops down as overlay when scrolling down | Header
 | Done | Browse | Interact with carousel by pressing nav buttons | Student Quotes
