@@ -99,7 +99,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 | Done | NAV | Navigate to home page | Root
 | Done | Browse | White header drops down as overlay when scrolling down | Header
 | Done | Browse | Interact with carousel by pressing nav buttons | Student Quotes
-| 
+|
 
 ## Features
 
@@ -123,6 +123,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Node.js
 * Firebase
 * TypeScript
+* Bootstrap 4
 
 
 ## License
