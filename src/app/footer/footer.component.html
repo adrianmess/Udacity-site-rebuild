@@ -4,96 +4,95 @@
       <a href="#">
         <div class="">
 
-          <img src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small-transition.png">
-        </div>
-      </a>
-    </section>
+        <img src="https://storage.googleapis.com/theonemaxim.com/github-site-rebuild-images/udacity-logo-small-transition.png">
+      </div>
+    </a>
+  </section>
 
-    <nav class="footer__primary" role="navigation">
-      <ul class="footer__nav">
-        <li id="featured-programs">
-          <h6>FEATURED PROGRAMS</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.fPrograms}}</a></li>
-          </ul>
-        </li>
-        <li class="footer__nav__col" id="only-udacity">
-          <h6>ONLY AT UDACITY</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.Oudacity}}</a></li>
-          </ul>
-        </li>
-        <li class="footer__nav__col" id="resources">
-          <h6>RESOURCES</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.Recources}}</a></li>
-          </ul>
-          <h6>PROGRAMS</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.programs}}</a></li>
-          </ul>
-        </li>
-        <li class="footer__nav__col" id="company">
-          <h6>COMPANY</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.company}}</a></li>
-          </ul>
+  <nav class="footer__primary" role="navigation">
+    <ul class="footer__nav">
+      <li id="featured-programs">
+        <h6>FEATURED PROGRAMS</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.fPrograms}}</a></li>
+        </ul>
+      </li>
+      <li class="footer__nav__col" id="only-udacity">
+        <h6>ONLY AT UDACITY</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.Oudacity}}</a></li>
+        </ul>
+      </li>
+      <li class="footer__nav__col" id="resources">
+        <h6>RESOURCES</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.Recources}}</a></li>
+        </ul>
+        <h6>PROGRAMS</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.programs}}</a></li>
+        </ul>
+      </li>
+      <li class="footer__nav__col" id="company">
+        <h6>COMPANY</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.company}}</a></li>
+        </ul>
 
-          <h6>BUSINESS</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.business}}</a></li>
-          </ul>
-        </li>
-        <li class="footer__nav__col" id="support">
-          <h6>SUPPORT</h6>
-          <ul>
-            <li *ngFor="let form of forms | async"><a href="#">{{form.support}}</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+        <h6>BUSINESS</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.business}}</a></li>
+        </ul>
+      </li>
+      <li class="footer__nav__col" id="support">
+        <h6>SUPPORT</h6>
+        <ul>
+          <li *ngFor="let form of forms | async"><a href="#">{{form.support}}</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
-    <hr>
+  <hr>
 
-    <section class="footer__secondary">
+  <section class="footer__secondary">
+    <div class="footer__col">
+      <ul class="fineprint">
+        <li><p class="small mb-0">© 2011–2018 Udacity, Inc.</li>
+          <li class="fineprint__link hidden-sm-down legal">
+            <a href="/legal">Legal & Privacy</a>
+          </li>
+          <li class="fineprint__link hidden-sm-down">
+            <a href="https://www.udacity.com/regulatory-information">Regulatory Information</a>
+          </li>
+          <li class="fineprint__link hidden-sm-down">
+            <a href="https://www.udacity.com/sitemap">Site Map</a>
+          </li>
+        </ul>
+      </div>
+
+      <app-footer-social id="social_icons"></app-footer-social>
+
       <div class="footer__col">
-        <ul class="fineprint">
-          <li><p class="small mb-0">© 2011–2018 Udacity, Inc.</li>
-            <li class="fineprint__link hidden-sm-down legal">
-              <a href="/legal">Legal & Privacy</a>
-            </li>
-            <li class="fineprint__link hidden-sm-down">
-              <a href="https://www.udacity.com/regulatory-information">Regulatory Information</a>
-            </li>
-            <li class="fineprint__link hidden-sm-down">
-              <a href="https://www.udacity.com/sitemap">Site Map</a>
-            </li>
-          </ul>
-        </div>
-
-        <app-footer-social id="social_icons"></app-footer-social>
-
-        <div class="footer__col">
-          <app-nav-countries>
-            <div class="locales">
-              <div class="container" id="footer-geo-toggle-placeholder">
-                <div class="select open">
-                  <input _ngcontent-c8="" class="selected-value" id="footer-geo-toggle" type="hidden" value="#">
-                  <a class="selected">
-                    <img src="https://www.udacity.com/assets/iridium/images/shared/flags/icon-flag-us.svg" alt="selected-image">
-                    <label class="selected-text">United States</label>
-                  </a>
-                  <span class="pointer pointer-down"></span>
-                </div>
+        <app-nav-countries>
+          <div class="locales">
+            <div class="container" id="footer-geo-toggle-placeholder">
+              <div class="select open">
+                <input _ngcontent-c8="" class="selected-value" id="footer-geo-toggle" type="hidden" value="#">
+                <a class="selected">
+                  <img src="https://www.udacity.com/assets/iridium/images/shared/flags/icon-flag-us.svg" alt="selected-image">
+                  <label class="selected-text">United States</label>
+                </a>
+                <span class="pointer pointer-down"></span>
               </div>
             </div>
-          </app-nav-countries>
-        </div>
-      </section>
-
-      <section class="text-center">
-        <p class="micro mb-half">"Nanodegree" is a registered trademark of Udacity. © 2011–2018 Udacity, Inc.</p>
-        <p class="micro legible center mb-0">Udacity is not an accredited university and we don't confer traditional degrees. Udacity Nanodegree programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</p>
-      </section >
-    </div>
-  </footer>
+          </div>
+        </app-nav-countries>
+      </div>
+    </section>
+    <section class="text-center">
+      <p class="micro mb-half">"Nanodegree" is a registered trademark of Udacity. © 2011–2018 Udacity, Inc.</p>
+      <p class="micro legible center mb-0">Udacity is not an accredited university and we don't confer traditional degrees. Udacity Nanodegree programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</p>
+    </section >
+  </div>
+</footer>
