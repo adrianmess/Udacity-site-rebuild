@@ -45,14 +45,17 @@ For this project I am creating a copy of the Udacity website. I will be using An
   * https://www.npmjs.com/get-npm
 
 * Install TypeScript
+      
       $ npm install -g typescript
+      
 * Install Angularcli
+      
       $ npm install -g @angular/cli@1.6.5
 
 ### Clone
   * Clone this repo to your local machine from: https://github.com/adrianmess/site-rebuild
 
-      $ git clone https://github.com/adrianmess/site-rebuild
+        $ git clone https://github.com/adrianmess/site-rebuild
 
 
 Open **site-rebuild** folder from terminal.
