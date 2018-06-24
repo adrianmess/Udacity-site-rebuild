@@ -59,10 +59,12 @@ a {
 }
 .header-white {
   background-color: #fff; /* White background color */
-  position: fixed; /* Make it stick/fixed */
+  position: fixed;
+   /* Make it stick/fixed */
   top: -60px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  transition: top 0.3s;
+   /* Transition effect when sliding down (and up) */
   color: #525c65;
   z-index:1000
 }
@@ -92,4 +94,10 @@ a {
   width: 1px;
   height: 40px;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-normal .header-white {
+    display: none!important;
+  }
 }
