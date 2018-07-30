@@ -8,23 +8,19 @@
   <div class="panel-body">
     <div>
       <div>
-        <label>Form Title:</label>
+        <label>Link Section:</label>
         <br>
         <input #newTitle>
       </div>
 
       <div>
-        <label>Form Artist:</label>
+        <label>Link URL:</label>
         <br>
-        <input #newArtist>
+        <input #newLink>
       </div>
 
-      <div>
-        <label>Form Description:</label>
-        <br>
-        <textarea #newDescription></textarea>
-      </div>
-      <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Add</button>
+      <button (click)="submitForm(newFProgram.value, newOudacity.value, newResources.value); newPrograms.value=''; newCompany.value=''; newBusiness.value=''; newSupport.value=''; ">Add</button>
+
     </div>
   </div>
 </div>
