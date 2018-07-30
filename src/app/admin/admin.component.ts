@@ -20,8 +20,8 @@ export class AdminComponent implements OnInit {
   //   this.formService.addForm(newForm);
   // }
 
-  submitForm(FProgram: string) {
-    var newForm: Form = new Form(FProgram);
+  submitForm(FProgram: string, Oudacity: string, Resources: string, Programs: string, Company: string, Business: string, Support: string) {
+    var newForm: Form = new Form(FProgram, Oudacity, Resources, Programs, Company, Business, Support);
     this.formService.addForm(newForm);
   }
 
