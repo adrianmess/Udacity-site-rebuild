@@ -11,7 +11,7 @@ export class FormService {
 
 
   constructor(private database: AngularFireDatabase) {
-    this.forms = database.list('/fLinks/');
+    this.forms = database.list('/cards/');
   }
 
 
