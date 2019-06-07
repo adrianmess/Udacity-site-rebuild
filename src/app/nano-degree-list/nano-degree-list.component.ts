@@ -14,7 +14,7 @@ export class NanoDegreeListComponent implements OnInit {
 
   forms: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
-  constructor() { }
+  constructor(private router: Router, private formService: FormService) { }
 
   ngOnInit() {
   }
