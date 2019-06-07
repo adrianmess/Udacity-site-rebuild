@@ -1,5 +1,5 @@
-<div class="card-deck" *ngFor="let form of forms | async">
-  <div class="card card--nanodegree">
+<div class="card-deck">
+  <div class="card card--nanodegree" *ngFor="let form of forms | async">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header" class="e2e-dangerous-url" style="background-image: url({{form.bgImgUrl}});">
         <div  class="card--nanodegree__header--overlay" id="{{form.divId}}">
