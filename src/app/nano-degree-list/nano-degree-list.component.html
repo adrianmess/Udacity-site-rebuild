@@ -1,13 +1,13 @@
-<div class="card-deck">
+<div class="card-deck" *ngFor="let form of forms | async">
   <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
-      <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd898.jpg);">
-        <div  class="card--nanodegree__header--overlay" id="overlay1">
-          <span class="pill pill--white ng-tns-c36-5 ng-star-inserted" style="">New!</span>
+      <div class="card-img-top card--nanodegree__header" class="e2e-dangerous-url" style="background-image: url({{form.bgImgUrl}});">
+        <div  class="card--nanodegree__header--overlay" id="{{form.divId}}">
+          <span class="pill pill--white ng-tns-c36-5 ng-star-inserted" style="">{{form.pillTxt}}</span>
         </div>
       </div>
       <div class="card--nanodegree__title">
-        <h4>Artificial Intelligence</h4>
+        <h4>{{form.h4text}}</h4>
       </div>
       <div class="card--nanodegree__affiliates">
         <ul>
@@ -15,7 +15,7 @@
       </div>
     </a>
   </div>
-  <div class="card card--nanodegree">
+  <!-- <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd892.jpg);">
         <div  class="card--nanodegree__header--overlay" id="overlay2">
@@ -28,8 +28,8 @@
       <div class="card--nanodegree__affiliates">
       </div>
     </a>
-  </div>
-  <div class="card card--nanodegree">
+  </div> -->
+  <!-- <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd891.jpg);">
         <div  class="card--nanodegree__header--overlay" id="overlay3">
@@ -45,9 +45,9 @@
         </ul>
       </div>
     </a>
-  </div>
+  </div> -->
 
-  <div class="card card--nanodegree">
+  <!-- <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd089.jpg);">
         <div  class="card--nanodegree__header--overlay" id="overlay4">
@@ -63,9 +63,9 @@
         </ul>
       </div>
     </a>
-  </div>
+  </div> -->
 
-  <div class="card card--nanodegree">
+  <!-- <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd787.jpg);">
         <div  class="card--nanodegree__header--overlay" id="overlay5">
@@ -81,9 +81,9 @@
         </ul>
       </div>
     </a>
-  </div>
+  </div> -->
 
-  <div class="card card--nanodegree">
+  <!-- <div class="card card--nanodegree">
     <a href="#" title="Artificial Intelligence">
       <div class="card-img-top card--nanodegree__header"  style="background-image: url(https://www.udacity.com/assets/iridium/images/shared/nd-cards/nd201.jpg);">
         <div  class="card--nanodegree__header--overlay" id="overlay6">
@@ -99,5 +99,5 @@
         </ul>
       </div>
     </a>
-  </div>
+  </div> -->
 </div>
