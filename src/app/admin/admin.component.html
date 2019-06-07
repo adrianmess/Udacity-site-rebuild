@@ -3,7 +3,7 @@
 </p>
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Add New Form to Inventory</h3>
+    <h3 class="panel-title">Add New Card to Featured Card's list</h3>
   </div>
   <div class="panel-body">
     <div>
@@ -19,7 +19,7 @@
         <input #newLink>
       </div>
 
-      <button (click)="submitForm(title.value, bgImgUrl.value, pillTxt.value, h4text.value, divId.value); title.value=''; bgImgUrl.value=''; pillTxt.value=''; h4text.value=''; divId.value='';  ">Add</button>
+      <button (click)="submitForm(newTitle.value, newBgImgUrl.value, newPillTxt.value, newH4text.value, newDivId.value); newTitle.value=''; newBgImgUrl.value=''; newPillTxt.value=''; newH4text.value=''; newDivId.value=''">Add</button>
 
     </div>
   </div>
