@@ -1,17 +1,26 @@
 <!-- -------two-way data binding -------  -->
 
-<h4>Edit Form</h4>
+<h4>Edit Nano Degree Card</h4>
 
-<label>Edit Form FProgram:</label>
-<input [(ngModel)]="selectedForm.FProgram">
+<label>Edit Card Title:</label>
+<input [(ngModel)]="selectedForm.title">
 <br>
 
-<label>Edit Form Link:</label>
-<input [(ngModel)]="selectedForm.Link">
+<label>Edit Card Image Url:</label>
+<input [(ngModel)]="selectedForm.bgImgUrl">
 <br>
 
-<label>Edit Form Description:</label>
-<input [(ngModel)]="selectedForm.description">
+<label>Edit Card Pill Text:</label>
+<input [(ngModel)]="selectedForm.pillTxt">
+<br>
+
+<label>Edit Card H4 Text:</label>
+<input [(ngModel)]="selectedForm.h4text">
+<br>
+
+<label>Edit Card DIV ID:</label>
+<input [(ngModel)]="selectedForm.divId">
+<br>
 
 <button (click)="beginUpdatingForm(selectedForm)">Update</button>
 <hr>
