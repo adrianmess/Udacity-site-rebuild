@@ -17,6 +17,7 @@ export class NanoDegreeListComponent implements OnInit {
   constructor(private router: Router, private formService: FormService) { }
 
   ngOnInit() {
+    this.forms = this.formService.getForms();
   }
 
 }
