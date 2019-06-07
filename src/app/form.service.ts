@@ -28,4 +28,15 @@ export class FormService {
   return this.database.object('forms/' + formId);
 }
 
+  updateForm(localUpdatedForm) {
+    var formEntryInFirebase = this.getFormById(localUpdatedForm.$key);
+    formEntryInFirebase.update({
+      title: localUpdatedForm.title,
+      bgImgUrl: localUpdatedForm.bgImgUrl,
+      pillTxt: localUpdatedForm.pillTxt,
+      h4text: localUpdatedForm.h4text,
+      divId: localUpdatedForm.divId
+    });
+  }
+
 }
