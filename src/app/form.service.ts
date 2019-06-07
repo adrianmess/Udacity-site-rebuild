@@ -39,9 +39,9 @@ export class FormService {
     });
   }
 
-  // deleteForm(localFormToDelete) {
-  //   var formEntryInFirebase = this.getFormById(localFormToDelete.$key);
-  //   formEntryInFirebase.remove();
-  // }
+  deleteForm(localFormToDelete) {
+    var formEntryInFirebase = this.getFormById(localFormToDelete.$key);
+    formEntryInFirebase.remove();
+  }
 
 }
