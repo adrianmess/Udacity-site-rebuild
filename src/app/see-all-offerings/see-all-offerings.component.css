@@ -16,16 +16,20 @@
   border-radius: 50%;
   background-size: 22%;
   display: inline-block;
-  margin-left: 1.5rem;
+  margin-bottom: .6rem;
   width: 60px;
   height: 60px;
   vertical-align: middle;
   color: #02b3e4!important;
 }
 
+#see-all-text {
+  color: #02b3e4!important;
+}
 
 a {
   vertical-align: middle;
+  text-decoration: none;
 }
 
 a span {
