@@ -19,7 +19,7 @@ export class EditFormComponent implements OnInit {
     }
 
     beginDeletingForm(formToDelete){
-        if(confirm("Are you sure you want to delete this item from the inventory?")){
+        if(confirm("Are you sure you want to delete this item card the inventory?")){
           this.formService.deleteForm(formToDelete);
         }
       }
