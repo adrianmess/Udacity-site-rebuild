@@ -14,9 +14,6 @@ export class FormService {
     this.forms = database.list('/cards/');
   }
 
-  ngOnInit() {
-  }
-
   getForms() {
     return this.forms;
   }
