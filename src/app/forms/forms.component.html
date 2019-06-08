@@ -2,7 +2,13 @@
 
 <div *ngFor="let form of forms | async"  class="panel panel-default">
   <div class="panel-body">
-    <h3><em></em></h3>
-    <hr>
+    <!-- <h1>{{form.$key}}</h1> -->
+    <div *ngIf="currentRoute === '/admin'">
+      <app-edit-form [selectedForm]="form"></app-edit-form>
+    </div>
   </div>
 </div>
+
+<!-- <div>
+  <app-edit-form [selectedForm]="form"></app-edit-form>
+</div> -->
