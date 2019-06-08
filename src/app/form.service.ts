@@ -14,6 +14,8 @@ export class FormService {
     this.forms = database.list('/cards/');
   }
 
+  ngOnInit() {
+  }
 
   getForms() {
     return this.forms;
@@ -25,7 +27,7 @@ export class FormService {
   }
 
   getFormById(formId: string){
-  return this.database.object('forms/' + formId);
+  return this.database.object('cards/' + formId);
 }
 
   updateForm(localUpdatedForm) {
