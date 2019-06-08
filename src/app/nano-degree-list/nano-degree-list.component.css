@@ -65,7 +65,7 @@
   padding: 2px 6px;
   border-radius: 2px;
   letter-spacing: 2px;
-  z-index: 5000;
+  z-index: 999;
   text-transform: uppercase;
   line-height: 1.5rem;
   font-weight: 600;
