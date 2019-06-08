@@ -55,6 +55,7 @@ max-width:200px;
 
 .footer__secondary {
   display: flex;
+  justify-content: space-around;
 }
 
 p {
@@ -76,6 +77,7 @@ p {
 
 p.legible {
     max-width: 48.75rem!important;
+    margin: 0 auto;
 }
 
 .text-center {
