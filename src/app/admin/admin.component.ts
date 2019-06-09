@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Form } from '../form.model';
 import { FormService } from '../form.service';
+import {FormresetService} from '../formreset.service';
+import { setCards} from '../json-to-firebase';
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css'],
-  providers: [FormService]
+  providers: [FormService, FormresetService]
 })
 export class AdminComponent implements OnInit {
 
@@ -18,6 +20,10 @@ export class AdminComponent implements OnInit {
   submitForm(title: string, bgImgUrl: string, pillTxt: string, h4text: string, divId: string) {
     var newForm: Form = new Form(title, bgImgUrl, pillTxt, h4text, divId);
     this.formService.addForm(newForm);
+  }
+
+  resetForm(){
+    setCards();
   }
 
 }
