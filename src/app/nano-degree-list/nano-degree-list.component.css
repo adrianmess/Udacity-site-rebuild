@@ -103,8 +103,10 @@ h4 {
 .card-deck {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   margin: 0px 0 0 10px;
+  max-width: 1450px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .card--nanodegree{
