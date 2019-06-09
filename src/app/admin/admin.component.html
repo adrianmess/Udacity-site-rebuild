@@ -1,49 +1,60 @@
-<p>
-  <a routerLink="">Home</a>
-</p>
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Add New Card to Featured Card's list</h3>
-  </div>
-  <div class="panel-body">
-    <div>
+<div class="main">
+<div class="top-btns">
+  <button class="btn ">
+    <a routerLink="">Home</a>
+  </button>
+  <br>
+  <button class="btn btnReset" (click)="resetForm()">Click to Load Default Card List</button>
+</div>
+
+
+<div id="contain">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add new card to Nano Degree card list</h3>
+    </div>
+    <div class="panel-body">
       <div>
-        <label>Card Title:</label>
-        <br>
-        <input #newTitle>
+        <div>
+          <label>Card Title:</label>
+          <br>
+          <input #newTitle>
+        </div>
+
+        <div>
+          <label>Card Image Url:</label>
+          <br>
+          <input #newBgImgUrl>
+        </div>
+
+        <div>
+          <label>Pill Text:</label>
+          <br>
+          <input #newPillTxt>
+        </div>
+
+        <div>
+          <label>H4 Text:</label>
+          <br>
+          <input #newH4text>
+        </div>
+
+        <div>
+          <label>Div ID:</label>
+          <br>
+          <input #newDivId>
+        </div>
+
+        <button class="btn btn-success btn-md"
+          (click)="submitForm(newTitle.value, newBgImgUrl.value, newPillTxt.value, newH4text.value, newDivId.value); newTitle.value=''; newBgImgUrl.value=''; newPillTxt.value=''; newH4text.value=''; newDivId.value=''">Add</button>
+
       </div>
-
-      <div>
-        <label>Card Image Url:</label>
-        <br>
-        <input #newBgImgUrl>
-      </div>
-
-      <div>
-        <label>Pill Text:</label>
-        <br>
-        <input #newPillTxt>
-      </div>
-
-      <div>
-        <label>H4 Text:</label>
-        <br>
-        <input #newH4text>
-      </div>
-
-      <div>
-        <label>Div ID:</label>
-        <br>
-        <input #newDivId>
-      </div>
-
-      <button (click)="submitForm(newTitle.value, newBgImgUrl.value, newPillTxt.value, newH4text.value, newDivId.value); newTitle.value=''; newBgImgUrl.value=''; newPillTxt.value=''; newH4text.value=''; newDivId.value=''">Add</button>
-
     </div>
   </div>
-</div>
 
-<div>
-  <app-forms></app-forms>
-</div>
+  <div>
+    <app-forms></app-forms>
+  </div>
 
+</div>
+</div>
