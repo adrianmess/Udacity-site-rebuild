@@ -4,7 +4,6 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContentComponent } from './content/content.component';
 import { FormsComponent } from './forms/forms.component';
-import { FormDetailComponent } from './form-detail/form-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -15,10 +14,6 @@ const appRoutes: Routes = [
     path: 'app-content',
     component: ContentComponent
   },
-  {
-  path: 'form-detail/:id',
-  component: FormDetailComponent
-},
   {
   path: 'forms',
   component: FormsComponent

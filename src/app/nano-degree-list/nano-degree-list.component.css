@@ -22,22 +22,22 @@
 }
 
 #overlay1{
-  background-color: rgba(2,179,228,.8);
+  background-color: rgba(83, 206, 240, 0.6);
 }
 #overlay2{
-  background-color: rgba(2,204,186,.8);
+  background-color: rgba(2,204,186,.6);
 }
 #overlay3{
-  background-color: rgba(169,81,237,.8);
+  background-color: rgba(169,81,237,.6);
 }
 #overlay4{
-  background-color: rgba(125,151,173,.8);
+  background-color: rgba(125,151,173,.6);
 }
 #overlay5{
-  background-color: rgba(255,162,52,.8);
+  background-color: rgba(255,162,52,.6);
 }
 #overlay6{
-  background-color: rgba(255,84,131,.8);
+  background-color: rgba(255,84,131,.6);
 }
 
 
@@ -49,7 +49,7 @@
 }
 
 .card-image-top {
-  background-color: rgba(2,179,228,.8);
+  background-color: rgba(2,179,228,.6);
 }
 
 
