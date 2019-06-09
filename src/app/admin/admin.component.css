@@ -44,5 +44,73 @@
 
  .top-btns{
 	margin-right: 3rem;
+  	width: 350px;
  }
 
+
+.pocolor {
+	 background-color:white;
+	 display: flex;
+	 justify-content: space-evenly;
+ }
+
+ .pocolor1 > span {
+	 margin-left: 5px;
+ }
+#ocolor1{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(83, 206, 240, 0.6);
+ }
+
+#ocolor2{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(2,204,186,.6);
+ }
+
+#ocolor3{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(169,81,237,.6);
+ }
+
+#ocolor4{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(125,151,173,.6);
+ }
+
+#ocolor5{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(255,162,52,.6);
+ }
+
+#ocolor6{
+ /* height: 10px;
+ width: 10px; */
+ background-color: rgba(255,84,131,.6);
+ }
+
+ #h2preview{
+ 	transform: scale(2);
+    margin-bottom: 44px;
+ }
+#preview{
+ transform: scale(0.4);
+    width: 556px;
+	height: 500px;
+	right: -90px;
+    position: fixed;
+}
+
+#divColorPalette {
+	margin-top: 20px;
+}
+@media screen and (max-width: 1200px ) {
+#divColorPalette {
+    transform: scale(0.4);
+    margin: -65px auto;
+}
+}

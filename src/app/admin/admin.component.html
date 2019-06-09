@@ -5,10 +5,19 @@
   </button>
   <br>
   <button class="btn btnReset" (click)="resetForm()">Click to Load Default Card List</button>
+
+
+<div id="preview">
+  <h2 id="h2preview">Nano Card List Preview</h2>
+  <app-nano-degree-list></app-nano-degree-list>
+</div>
+
+
 </div>
 
 
 <div id="contain">
+
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">Add new card to Nano Degree card list</h3>
@@ -42,13 +51,22 @@
         <div>
           <label>Div ID:</label>
           <br>
-          <input #newDivId>
+          <input placeholder="Ex: overlay5" #newDivId>
         </div>
 
         <button class="btn btn-success btn-md"
           (click)="submitForm(newTitle.value, newBgImgUrl.value, newPillTxt.value, newH4text.value, newDivId.value); newTitle.value=''; newBgImgUrl.value=''; newPillTxt.value=''; newH4text.value=''; newDivId.value=''">Add</button>
 
       </div>
+    </div>
+    <div id="divColorPalette">
+      <h4>Div overlay color palette</h4>
+      <p class="pocolor">Overlay 1<span id="ocolor1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+      <p class="pocolor">Overlay 2<span id="ocolor2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+      <p class="pocolor">Overlay 3<span id="ocolor3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+      <p class="pocolor">Overlay 4<span id="ocolor4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+      <p class="pocolor">Overlay 5<span id="ocolor5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+      <p class="pocolor">Overlay 6<span id="ocolor6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
     </div>
   </div>
 
