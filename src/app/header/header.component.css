@@ -21,16 +21,29 @@
   color: white;
 }
 
-.btn{
+
+.btn-gStarted{
   background-color: #02ccba;
   /* margin-left: 2.5rem; */
+  /* border: 2;
+  color: white;
+  border: .125rem solid transparent;
+  margin-left: 2.5rem;
+  transition: all .3s ease;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15); */
+  width: 7.75rem;
+}
+.btn-danger {
+  opacity: .8;
+}
+
+.btn {
   border: 2;
   color: white;
   border: .125rem solid transparent;
   margin-left: 2.5rem;
   transition: all .3s ease;
   box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
-  width: 7.75rem;
 }
 
 .btn:hover {
