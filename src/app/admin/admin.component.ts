@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Form } from '../form.model';
 import { FormService } from '../form.service';
-import {FormresetService} from '../formreset.service';
 import { setCards} from '../json-to-firebase';
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css'],
-  providers: [FormService, FormresetService]
+  providers: [FormService]
 })
 export class AdminComponent implements OnInit {
 
