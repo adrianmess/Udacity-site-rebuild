@@ -32,6 +32,11 @@
 	margin-bottom: 1rem;
 }
 
+.btnHome a {
+	text-decoration: none;
+
+}
+
 .btnReset{
 	background-color:rgba(16, 183, 230, 0.56);
 	color: white;
