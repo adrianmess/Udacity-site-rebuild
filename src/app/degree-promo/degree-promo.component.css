@@ -272,6 +272,10 @@ button, input {
   margin-bottom: 20px;
 }
 
+.featured-card {
+    min-width: 333px;
+    max-width: 400px;
+}
 .featured-card .card {
   box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
 }
