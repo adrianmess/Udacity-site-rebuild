@@ -1,0 +1,38 @@
+.main{
+	margin-top:1rem;
+}
+#contain{
+	display:flex;
+	overflow: hidden;
+}
+
+.panel-title {
+	max-width: 16rem;
+}
+
+/* .panel-body {} */
+
+.panel-default {
+	min-width: max-content;
+	margin: 0px 4rem;
+}
+
+.btn-success {
+	background-color: rgba(40, 167, 69, 0.82);;
+    border-color: #28a745;
+	margin-top: 10px;
+}
+
+.btnReset{
+	background-color:rgba(16, 183, 230, 0.56);
+	color: white;
+}
+
+ .top-btns{
+	float: right;
+    display: flex;
+    flex-direction: column;
+	float: right;
+	margin-right: 1rem;
+ }
+
