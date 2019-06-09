@@ -50,10 +50,10 @@
   box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-size: .875rem;
+#getStarted, #admin {
+  color: white!important;
+  text-decoration: none!important;
+  font-size: .875rem!important;
 }
 
 .divider {
