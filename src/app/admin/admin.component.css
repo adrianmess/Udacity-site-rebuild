@@ -1,20 +1,25 @@
 .main{
-	margin-top:1rem;
+	margin: 1rem auto;
+	display: flex;
+    flex-direction: row-reverse;
+	justify-content: space-around;
+	max-width: 1300px;
 }
+
 #contain{
 	display:flex;
-	overflow: hidden;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .panel-title {
 	max-width: 16rem;
 }
 
-/* .panel-body {} */
-
 .panel-default {
 	min-width: max-content;
-	margin: 0px 4rem;
+	margin: 0px 3.5rem 2rem;
 }
 
 .btn-success {
@@ -23,16 +28,16 @@
 	margin-top: 10px;
 }
 
+.btnHome{
+	margin-bottom: 1rem;
+}
+
 .btnReset{
 	background-color:rgba(16, 183, 230, 0.56);
 	color: white;
 }
 
  .top-btns{
-	float: right;
-    display: flex;
-    flex-direction: column;
-	float: right;
-	margin-right: 1rem;
+	margin-right: 3rem;
  }
 
