@@ -28,11 +28,11 @@
   margin-right: 0;
 }
 
-@media screen and (min-width: 48rem){
+/* @media screen and (min-width: 48rem){
  .featured-cards__list:last-child  {
     padding: 0 .75rem;
   }
-}
+} */
 @media screen and (min-width: 62rem){
 
   .featured-cards__list:last-child {
